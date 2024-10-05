@@ -6,7 +6,7 @@ import javax.jws.WebService;
 import java.util.HashMap;
 import java.util.Map;
 
-@WebService(endpointInterface = "tn.esprit.service.PersonServiceImpl")
+@WebService(endpointInterface = "tn.esprit.service.PersonService")
 public class PersonServiceImpl implements PersonService{
     private static Map<Integer,Person> persons=new HashMap<Integer,Person>();
     @Override
